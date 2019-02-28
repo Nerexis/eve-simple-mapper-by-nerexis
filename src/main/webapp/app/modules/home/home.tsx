@@ -1,10 +1,9 @@
 import './home.scss';
 
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Translate } from 'react-jhipster';
 import { connect } from 'react-redux';
-import { Row, Col, Alert } from 'reactstrap';
+import { Alert, Col, Row } from 'reactstrap';
 
 import { IRootState } from 'app/shared/reducers';
 import { getSession } from 'app/shared/reducers/authentication';
@@ -87,7 +86,8 @@ export class Home extends React.Component<IHomeProp> {
             <Translate contentKey="home.like">If you like JHipster, do not forget to give us a star on</Translate>{' '}
             <a href="https://github.com/jhipster/generator-jhipster" target="_blank" rel="noopener noreferrer">
               Github
-            </a>!
+            </a>
+            !
           </p>
         </Col>
         <Col md="3" className="pad">

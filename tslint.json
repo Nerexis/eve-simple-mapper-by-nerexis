@@ -21,7 +21,7 @@
     "no-shadowed-variable": true,
     "no-string-literal": false,
     "no-switch-case-fall-through": true,
-    "no-trailing-whitespace": true,
+    "no-trailing-whitespace": false,
     "no-unused-expression": [true, "allow-fast-null-checks"],
     "no-var-keyword": true,
     "no-implicit-dependencies": [true, "dev"],
@@ -32,14 +32,14 @@
     "semicolon": [true, "always", "ignore-bound-class-methods"],
     "triple-equals": [true, "allow-null-check"],
     "variable-name": false,
-    "whitespace": [true, "check-branch", "check-decl", "check-operator", "check-separator", "check-type"],
+    "whitespace": [false, "check-branch", "check-decl", "check-operator", "check-separator", "check-type"],
     "prefer-const": true,
     "arrow-parens": [true, "ban-single-arg-parens"],
     "arrow-return-shorthand": [true],
     "import-spacing": true,
     "no-consecutive-blank-lines": [true],
     "object-literal-shorthand": true,
-    "space-before-function-paren": [true, { "named": "never", "asyncArrow": "always" }],
+    "space-before-function-paren": [false, { "named": "never", "asyncArrow": "always" }],
     "trailing-comma": [
       true,
       {
@@ -91,7 +91,7 @@
     "no-shadowed-variable": true,
     "no-string-literal": false,
     "no-switch-case-fall-through": true,
-    "no-trailing-whitespace": true,
+    "no-trailing-whitespace": false,
     "no-unused-expression": [true, "allow-fast-null-checks"],
     "no-var-keyword": true,
     "no-implicit-dependencies": [false, "dev"],
@@ -113,7 +113,7 @@
     ],
     "variable-name": false,
     "whitespace": [
-      true,
+      false,
       "check-branch",
       "check-decl",
       "check-operator",
@@ -159,8 +159,8 @@
         "allowSingleLine": true
       }
     ],
-    "object-curly-spacing": [true, "always"],
-    "space-in-parens": [true, "never"],
+    "object-curly-spacing": [false, "always"],
+    "space-in-parens": [false, "never"],
 
     "jsx-boolean-value": [true, "never"],
     "jsx-no-multiline-js": false,
